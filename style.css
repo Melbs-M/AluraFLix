@@ -46,3 +46,29 @@ img {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(59, 12, 87);
+}
+
+.categoria h2 {
+    color: rgb(228, 131, 220);
+}
